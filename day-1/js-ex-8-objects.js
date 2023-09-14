@@ -7,9 +7,10 @@
         console.log(prop,myObj[prop])
     }
     
-    Use the delete keyword to demonstrate we can delete existing properties from an object
+    2) Use the delete keyword to demonstrate we can delete existing properties from an object
     (delete a property, and iterate over the properties again) 
-    Add a new property to your object to demonstrate that we can add new properties to existing objects
+
+    3) Add a new property to your object to demonstrate that we can add new properties to existing objects
 */
 
 const steffenProfile = {
