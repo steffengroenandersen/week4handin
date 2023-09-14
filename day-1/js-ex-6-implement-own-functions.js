@@ -11,12 +11,39 @@
     Test the method with the same array and callback as in the example with the original filter method.
 */
 
+function myFilter(array, callback){
+    const result = [];
+
+    for(let i = 0; i < array.length; i++){
+        if(callback(array[i])){
+            result.push(array[i]);
+        }
+    }
+
+    return result;
+}
+
+function filterOnSteffen(name){
+    if(name === "Steffen"){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+const names = ["Steffen", "Mathias", "Lars"];
+const filteredNames = myFilter(names, filterOnSteffen);
+
+console.log("Original names: " + names);
+console.log("New names: " + filteredNames);
+
     
 /*
     b) Implement a function: myMap(array, callback)that, provided an array and a callback, 
     provides the same functionality as calling the existing map method on an array.
     Test the method with the same array and callback as in the example with the original map method.
 */
+console.log();
 
 function myMap(array, callback){
     const result = [];
