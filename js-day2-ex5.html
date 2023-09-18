@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+
+    <script src="js-day2-ex5.js" defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mx-auto">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>ID</th><th>Year</th><th>Make</th><th>Model</th><th>Price</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+                <div class="d-flex align-items-center">
+                    <p class="mb-0 mr-2">Price:</p> 
+                    <input class="mr-2" id="price-less-than-input">
+                    <button id="price-less-than-button">Price less than</button>
+                    <button id="clear-filter-button">Clear filter</button>
+                    <button id="sort-on-year-button">Sort on year</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
