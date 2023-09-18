@@ -1,3 +1,10 @@
+/*
+    a) Add a click handler to each 
+    div and write code, so when clicked,
+    each div will write to the
+    console "Hi from idOfTheDiv".
+*/
+
 let div1 = document.querySelector("#div1");
 
 div1.addEventListener("click", function(){
